@@ -36,7 +36,6 @@ body {
 
 #nav-list a {
   color: black;
-  text-align: center;
 }
 
 #nav-list a:hover {
@@ -79,6 +78,15 @@ h3
 #chicken p
 {
 	padding: 10px;
+}
+
+@media(min-width: 1200px)
+{
+	.navbar-brand h1
+	{
+		margin-top: 0;
+  		margin-left: -15px;
+	}
 }
 
 /********** Desktop **********/
