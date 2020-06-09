@@ -80,6 +80,8 @@ h3
 	padding: 10px;
 }
 
+/*********Large devices********/
+
 @media(min-width: 1200px)
 {
 	.navbar-brand h1
