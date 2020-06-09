@@ -16,7 +16,7 @@ body {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+#heading { 
   font-family: sans-serif;
   color: black;
   font-size: 1.5em;
@@ -84,7 +84,7 @@ h3
 
 @media(min-width: 1200px)
 {
-	.navbar-header .navbar-brand h1
+	#heading
 	{
 		margin-top: 0;
   		margin-left: -15px;
@@ -94,7 +94,7 @@ h3
 /********** Desktop **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
-	.navbar-brand h1
+	#heading
 	{
 		margin-top: 0;
   		margin-left: -15px;
@@ -104,7 +104,7 @@ h3
 /********** Tablet **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-	.navbar-brand h1
+	#heading
 	{
 		margin-top: 0;
   		margin-left: -15px;
